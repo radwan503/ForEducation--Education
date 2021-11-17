@@ -18,10 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
-        rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,11 +27,35 @@
         <![endif]-->
 
 
-    <div class="navigation-bar">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+    <header class="navigation-header">
+      <div class="top-menu">
+        <div class="container is-max-widescreen">
+          <div class="menu-navbar">
+            <ul class="nav-menu-list location-address">
+              <li>
+                <a href="#" id="map-show-hide-btn"><span><i class="fas fa-map-marker-alt"></i></span>1600 Amphitheatre Parkway, CA 94043</a>
+              </li>
+              <li>
+                <a href="mailto:ahmedradwan052@gmail.com"><span><i class="fas fa-envelope"></i></span>ahmedradwan052@gmail.com</a>
+              </li>
+            </ul>
+            <ul class="nav-menu-list social-icon">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="main-menu">
+          <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="container is-max-widescreen">
             <div class="navbar-brand">
               <a class="navbar-item" href="https://bulma.io">
-                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                <img src="./assets/img/logo/Logo.png" >
               </a>
           
               <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -45,79 +66,152 @@
             </div>
           
             <div id="navbarBasicExample" class="navbar-menu">
-              <div class="navbar-start">
-                <a class="navbar-item">
+              <div class="navbar-end">
+                <a href="#" class="navbar-item">
                   Home
                 </a>
           
-                <a class="navbar-item">
+                <a href="#" class="navbar-item">
                   About
                 </a>
-          
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    More
-                  </a>
-          
-                  <div class="navbar-dropdown">
-                    <a class="navbar-item">
-                      About
-                    </a>
-                    <a class="navbar-item">
-                      Jobs
-                    </a>
-                    <a class="navbar-item">
-                      Contact
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item">
-                      Report an issue
-                    </a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="navbar-end">
+
+                <a href="#" class="navbar-item">
+                  Courses
+                </a>
+
+                <a href="#" class="navbar-item">
+                  Contact
+                </a>
                 <div class="navbar-item">
                   <div class="buttons">
-                    <a class="button is-primary">
+                    <a class="button is-primary signup-btn">
                       <strong>Sign up</strong>
                     </a>
-                    <a class="button is-light">
-                      Log in
+                    <a class="button is-white search-btn" id="search-btn">
+                      <i class="fas fa-search"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
           </nav>
+        </div>
+    </header>
+
+    <div class="container is-max-widescreen">
+      <div class="location-popup">
+        <div id="map"></div>
+      </div>
+
+      <div class="search-popup">
+        <div class="level-right">
+          <div class="level-item">
+          <div class="field has-addons">
+            <p class="control">
+              <input class="input search-control" type="text" placeholder="Find a post">
+            </p>
+            <p class="control">
+              <button class="button search-btn">
+                Search
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 
-    <section class="home-page-banner">
-        <div class="container">
-            <div class="home-page-banner-inner">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="banner-details">
-                            <p>HTML COLOR CODES</p>
-                            <h1>Get HTML color codes, 
-                                RGB color codes,and HTML color names. Let's go!</h1>
-                        </div>
-                    </div>
-                </div>
+    
+    <section class="banner-section is-large is-info">
+      <div class="container is-max-widescreen">
+        <div class="columns is-reversed-mobile">
+          <div class="column is-three-fifths">
+            <div class="banner-group-details">
+              <p class="title">
+                Become Master
+              </p>
+              <p class="subtitle">
+                Learn New Skills Online <br>Find Best Courses
+              </p>
+              <div class="buttons">
+                <button class="button is-primary quote-btn">Get A Quote</button>
+                <button class="button is-link read-more-btn">Read more</button>
+              </div>
             </div>
+          </div>
+          <div class="column">
+            <div class="banner-details-image">
+              <figure class="image banner-img">
+                <img src="assets/img/banner/Analytic.png">
+              </figure>
+            </div>
+          </div>
+
         </div>
+      </div>
+    </section>
+
+    <section class="upcomming-course-countdown">
+      <div class="container is-max-widescreen">
+        <div class="upcomming-counter-details-group">
+          <div class="columns">
+            <div class="column is-three-fifths">
+              <div class="media">
+                <figure class="media-left">
+                  <p class="image upcoming-course-img">
+                    <img src="assets/img/banner/Success.png">
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <div class="content">
+                    <p class="title">
+                      Upcoming Our <span>Basic in <br>Python</span> Course!
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="counter">
+                <ul>
+                  <li><span id="days"></span>days</li>
+                  <li><span id="hours"></span>Hours</li>
+                  <li><span id="minutes"></span>Minutes</li>
+                  <li><span id="seconds"></span>Seconds</li>
+                 </ul>
+               </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <p class="title">
+          Primary hero
+        </p>
+        <p class="subtitle">
+          Primary subtitle
+        </p>
+      </div>
     </section>
 
 
-    <section class=""></section>
 
 
 
 
     <!-- JS here -->
-    <script src="js/vendor/jquery-3.2.1.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
+    async
+  ></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
