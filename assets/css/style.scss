@@ -11,6 +11,7 @@ $text-color-light-blue:#002147;
 $text-color-yellow:#FDC800;
 $text-color-white:#FFFFFF;
 $text-color-irsi-blue:#00B2B2;
+$text-color-dark-light:#757575;
 
 $btn-border-color-light-dark:#BDBDBD;
 
@@ -146,14 +147,25 @@ body {
 			font-size: 1rem;
 			line-height: 1.313rem;
 			margin-left: 1rem;
+			transition: 0.5s;
 			font-family:$font-family-inter ;
 			font-weight: $font-weight-bold;
 			color: $text-color-black;
-		  }
+			-webkit-transition: 0.5s;
+			-moz-transition: 0.5s;
+			-ms-transition: 0.5s;
+			-o-transition: 0.5s;
+}
 		  .signup-btn{
 			  width: 7.188rem;
 			  font-weight: $font-weight-regular;
 			  background: $bg-color-yellow;
+			  &:hover{
+				border-radius: 3rem;
+				color: $bg-color-white;
+				background: $text-color-light-blue;
+				
+			}
 		  }
 		  .search-btn{
 			  border: 1px solid $btn-border-color-light-dark;
@@ -189,7 +201,7 @@ body {
 	}
 
 }
-.banner-section {
+section.banner-section {
 	background-color: $bg-color-light-white;
 	padding: 10rem 10rem;
 	.banner-group-details{
@@ -220,14 +232,20 @@ body {
 		.quote-btn{
 			background: $bg-color-yellow;
 			&:hover{
+				border-radius: 3rem;
 				color: $bg-color-white;
 				background: $text-color-light-blue;
-			}
+				-webkit-border-radius: 3rem;
+				-moz-border-radius: 3rem;
+				-ms-border-radius: 3rem;
+				-o-border-radius: 3rem;
+}
 		}
 		.read-more-btn{
 			background: $bg-color-white;
 			border: 1px solid $btn-border-color-light-dark;
 			&:hover{
+				border-radius: 3rem;
 				color: $bg-color-white;
 				background: $text-color-light-blue;
 				
@@ -246,7 +264,7 @@ body {
 	}
 }
 
-.upcomming-course-countdown{
+section.upcomming-course-countdown{
 	transform: translateY(-6rem);
 	-webkit-transform: translateY(-6rem);
 	-moz-transform: translateY(-6rem);
@@ -320,4 +338,70 @@ body {
 		}
 
 	}
+}
+
+
+section.featured-coures{
+	.feature-header{
+		text-align: center;
+		h1.title{
+			font-size: 3rem;
+			text-transform: capitalize;
+			font-weight: $font-weight-bold;
+			font-family: $font-family-gerogia;
+			color: $text-color-light-blue;
+		}
+	}
+
+	.card.courses-single-card{
+		border: 1px solid $btn-border-color-light-dark;
+		.course-image{
+			.course-banner-image{
+				height: 100%;
+				width: 100%;
+				position: relative;
+				top: 0;
+				left: 0;
+				img{
+					height: 12.5rem;
+				}
+			}
+			.course-develop-by-image{
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				top: 9.688rem;
+				left: 1.675rem;
+				img{
+					height: 4rem;
+					width: 4rem;
+					border-radius: 0;
+					-webkit-border-radius: 0;
+					-moz-border-radius: 0;
+					-ms-border-radius: 0;
+					-o-border-radius: 0;
+					border: 5px solid #F0F4F9;
+				}
+			}
+		}
+		.card-content {
+			.media-content{
+				h2.title{
+					font-size: 1.15rem;
+					font-weight: $font-weight-bold;
+					font-family: $font-family-inter;
+					color: $text-color-light-blue;
+				}
+				p{
+					font-size: 0.875rem;
+					font-weight: $font-weight-regular;
+					font-family: $font-family-inter;
+					color: $text-color-dark-light;
+				}
+			}
+		}
+		
+
+	}
+
 }

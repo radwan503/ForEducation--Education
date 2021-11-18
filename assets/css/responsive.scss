@@ -15,7 +15,7 @@
    .social-icon{
       display: none !important;
    }
-   .banner-section {
+   section.banner-section {
       padding: 2rem 1rem;
       .columns.is-reversed-mobile {
          flex-direction: column-reverse;
@@ -45,7 +45,7 @@
          }
       }
    }
-   .upcomming-course-countdown{
+   section.upcomming-course-countdown{
       transform: translateY(0rem);
       -webkit-transform: translateY(0rem);
       -moz-transform: translateY(0rem);

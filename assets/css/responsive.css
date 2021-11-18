@@ -27,10 +27,10 @@
   .social-icon {
     display: none !important;
   }
-  .banner-section {
+  section.banner-section {
     padding: 2rem 1rem;
   }
-  .banner-section .columns.is-reversed-mobile {
+  section.banner-section .columns.is-reversed-mobile {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -39,33 +39,33 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .banner-section .banner-group-details p.title {
+  section.banner-section .banner-group-details p.title {
     font-size: .875rem;
   }
-  .banner-section .banner-group-details p.subtitle {
+  section.banner-section .banner-group-details p.subtitle {
     font-size: 1.75rem;
   }
-  .banner-section .banner-group-details .quote-btn,
-  .banner-section .banner-group-details .read-more-btn {
+  section.banner-section .banner-group-details .quote-btn,
+  section.banner-section .banner-group-details .read-more-btn {
     height: 3.37rem;
     width: 8.375rem;
   }
-  .banner-section .banner-details-image .banner-img {
+  section.banner-section .banner-details-image .banner-img {
     height: 100%;
     width: 100%;
   }
-  .banner-section .banner-details-image .banner-img img {
+  section.banner-section .banner-details-image .banner-img img {
     height: 20.25rem;
     width: 29.375rem;
   }
-  .upcomming-course-countdown {
+  section.upcomming-course-countdown {
     transform: translateY(0rem);
     -webkit-transform: translateY(0rem);
     -moz-transform: translateY(0rem);
     -ms-transform: translateY(0rem);
     -o-transform: translateY(0rem);
   }
-  .upcomming-course-countdown .upcomming-counter-details-group {
+  section.upcomming-course-countdown .upcomming-counter-details-group {
     padding: 2rem 1rem;
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -73,13 +73,13 @@
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
   }
-  .upcomming-course-countdown .upcomming-counter-details-group .media .upcoming-course-img img {
+  section.upcomming-course-countdown .upcomming-counter-details-group .media .upcoming-course-img img {
     display: none;
   }
-  .upcomming-course-countdown .upcomming-counter-details-group .media .media-content {
+  section.upcomming-course-countdown .upcomming-counter-details-group .media .media-content {
     overflow-x: visible;
   }
-  .upcomming-course-countdown .upcomming-counter-details-group .media .media-content p.title {
+  section.upcomming-course-countdown .upcomming-counter-details-group .media .media-content p.title {
     font-size: 1.875rem;
     transform: translateY(0%);
     -webkit-transform: translateY(0%);
@@ -87,21 +87,21 @@
     -ms-transform: translateY(0%);
     -o-transform: translateY(0%);
   }
-  .upcomming-course-countdown .upcomming-counter-details-group .counter {
+  section.upcomming-course-countdown .upcomming-counter-details-group .counter {
     transform: translateY(0%);
     -webkit-transform: translateY(0%);
     -moz-transform: translateY(0%);
     -ms-transform: translateY(0%);
     -o-transform: translateY(0%);
   }
-  .upcomming-course-countdown .upcomming-counter-details-group .counter li {
+  section.upcomming-course-countdown .upcomming-counter-details-group .counter li {
     font-size: 0.875rem;
   }
-  .upcomming-course-countdown .upcomming-counter-details-group .counter li::before {
+  section.upcomming-course-countdown .upcomming-counter-details-group .counter li::before {
     content: '';
     font-size: 1rem;
   }
-  .upcomming-course-countdown .upcomming-counter-details-group .counter li span {
+  section.upcomming-course-countdown .upcomming-counter-details-group .counter li span {
     font-size: 2rem;
     margin: 0 1.2rem;
   }

@@ -139,15 +139,26 @@ body {
   font-size: 1rem;
   line-height: 1.313rem;
   margin-left: 1rem;
+  transition: 0.5s;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   color: #212529;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .navigation-header .main-menu .navbar-menu .signup-btn {
   width: 7.188rem;
   font-weight: 400;
   background: #FDC800;
+}
+
+.navigation-header .main-menu .navbar-menu .signup-btn:hover {
+  border-radius: 3rem;
+  color: #FFFFFF;
+  background: #002147;
 }
 
 .navigation-header .main-menu .navbar-menu .search-btn {
@@ -182,27 +193,27 @@ body {
   background: #FDC800;
 }
 
-.banner-section {
+section.banner-section {
   background-color: #F0F4F9;
   padding: 10rem 10rem;
 }
 
-.banner-section .banner-group-details p.title {
+section.banner-section .banner-group-details p.title {
   font-size: 1.875rem;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   color: #002147;
 }
 
-.banner-section .banner-group-details p.subtitle {
+section.banner-section .banner-group-details p.subtitle {
   font-size: 3.75rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
   color: #002147;
 }
 
-.banner-section .banner-group-details .quote-btn,
-.banner-section .banner-group-details .read-more-btn {
+section.banner-section .banner-group-details .quote-btn,
+section.banner-section .banner-group-details .read-more-btn {
   height: 3.37rem;
   width: 11.375rem;
   font-size: 1rem;
@@ -214,36 +225,42 @@ body {
   -o-transition: 0.5s;
 }
 
-.banner-section .banner-group-details .quote-btn {
+section.banner-section .banner-group-details .quote-btn {
   background: #FDC800;
 }
 
-.banner-section .banner-group-details .quote-btn:hover {
+section.banner-section .banner-group-details .quote-btn:hover {
+  border-radius: 3rem;
   color: #FFFFFF;
   background: #002147;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
 }
 
-.banner-section .banner-group-details .read-more-btn {
+section.banner-section .banner-group-details .read-more-btn {
   background: #FFFFFF;
   border: 1px solid #BDBDBD;
 }
 
-.banner-section .banner-group-details .read-more-btn:hover {
+section.banner-section .banner-group-details .read-more-btn:hover {
+  border-radius: 3rem;
   color: #FFFFFF;
   background: #002147;
 }
 
-.banner-section .banner-details-image .banner-img {
+section.banner-section .banner-details-image .banner-img {
   height: 100%;
   width: 100%;
 }
 
-.banner-section .banner-details-image .banner-img img {
+section.banner-section .banner-details-image .banner-img img {
   height: 26.25rem;
   width: 29.375rem;
 }
 
-.upcomming-course-countdown {
+section.upcomming-course-countdown {
   transform: translateY(-6rem);
   -webkit-transform: translateY(-6rem);
   -moz-transform: translateY(-6rem);
@@ -251,7 +268,7 @@ body {
   -o-transform: translateY(-6rem);
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group {
+section.upcomming-course-countdown .upcomming-counter-details-group {
   padding: 2rem 2rem;
   border-radius: 12px;
   -webkit-border-radius: 12px;
@@ -261,12 +278,12 @@ body {
   background: #002147;
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group .media .upcoming-course-img img {
+section.upcomming-course-countdown .upcomming-counter-details-group .media .upcoming-course-img img {
   width: 10.625rem;
   height: 9.375rem;
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group .media .media-content p.title {
+section.upcomming-course-countdown .upcomming-counter-details-group .media .media-content p.title {
   font-size: 1.875rem;
   text-transform: capitalize;
   -webkit-transform: translateY(50%);
@@ -276,16 +293,16 @@ body {
   color: #FFFFFF;
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group .media .media-content p.title span {
+section.upcomming-course-countdown .upcomming-counter-details-group .media .media-content p.title span {
   color: #FDC800;
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group .counter {
+section.upcomming-course-countdown .upcomming-counter-details-group .counter {
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group .counter li {
+section.upcomming-course-countdown .upcomming-counter-details-group .counter li {
   display: inline-block;
   text-align: center;
   list-style-type: none;
@@ -294,7 +311,7 @@ body {
   color: #FFFFFF;
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group .counter li::before {
+section.upcomming-course-countdown .upcomming-counter-details-group .counter li::before {
   content: ':';
   position: absolute;
   font-size: 2rem;
@@ -302,16 +319,77 @@ body {
   margin: 0.313rem 2.75rem;
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group .counter li:nth-child(4)::before {
+section.upcomming-course-countdown .upcomming-counter-details-group .counter li:nth-child(4)::before {
   content: '';
 }
 
-.upcomming-course-countdown .upcomming-counter-details-group .counter li span {
+section.upcomming-course-countdown .upcomming-counter-details-group .counter li span {
   display: block;
   font-size: 3rem;
   margin: 0 1.2rem;
   margin-bottom: 10px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
+}
+
+section.featured-coures .feature-header {
+  text-align: center;
+}
+
+section.featured-coures .feature-header h1.title {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #002147;
+}
+
+section.featured-coures .card.courses-single-card {
+  border: 1px solid #BDBDBD;
+}
+
+section.featured-coures .card.courses-single-card .course-image .course-banner-image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+section.featured-coures .card.courses-single-card .course-image .course-banner-image img {
+  height: 12.5rem;
+}
+
+section.featured-coures .card.courses-single-card .course-image .course-develop-by-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 9.688rem;
+  left: 1.675rem;
+}
+
+section.featured-coures .card.courses-single-card .course-image .course-develop-by-image img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border: 5px solid #F0F4F9;
+}
+
+section.featured-coures .card.courses-single-card .card-content .media-content h2.title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #002147;
+}
+
+section.featured-coures .card.courses-single-card .card-content .media-content p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #757575;
 }
 /*# sourceMappingURL=style.css.map */
