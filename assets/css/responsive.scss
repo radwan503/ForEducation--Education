@@ -45,6 +45,8 @@
          }
       }
    }
+
+
    section.upcomming-course-countdown{
       transform: translateY(0rem);
       -webkit-transform: translateY(0rem);
@@ -102,6 +104,27 @@
             
          }
    
+      }
+   }
+
+   section.featured-coures{
+      padding: 0rem 2rem;
+      .feature-header{
+         margin-top: 3rem;
+         h1.title{
+            font-size: 2rem;
+
+         }
+      }
+   }
+
+
+   section.user-feedback{
+      padding: 4rem 2rem;
+      .feedback-banner-group{
+         .overlay-image{
+            left: 0;
+         }
       }
    }
    

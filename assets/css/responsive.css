@@ -105,6 +105,21 @@
     font-size: 2rem;
     margin: 0 1.2rem;
   }
+  section.featured-coures {
+    padding: 0rem 2rem;
+  }
+  section.featured-coures .feature-header {
+    margin-top: 3rem;
+  }
+  section.featured-coures .feature-header h1.title {
+    font-size: 2rem;
+  }
+  section.user-feedback {
+    padding: 4rem 2rem;
+  }
+  section.user-feedback .feedback-banner-group .overlay-image {
+    left: 0;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
