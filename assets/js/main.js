@@ -82,3 +82,21 @@ button.addEventListener('click',function(){
       }
   });
 });
+
+//pricing
+
+$("[data-toggle='tab']").click(function () {
+  var tabs = $(this).attr('data-tabs');
+  var tab = $(this).attr("data-tab");
+  $(tabs).find(".pricing-tab").removeClass("active");
+  $(tabs).find(tab).addClass("active");
+
+});
+
+$(document).ready(function() {
+  $(".btn-switch-addon").click(function () {
+      $(".btn-switch-addon").removeClass("active");
+      // $(".tab").addClass("active"); // instead of this do the below 
+      $(this).addClass("active");   
+  });
+  });

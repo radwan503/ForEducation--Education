@@ -149,6 +149,34 @@
          }
       }
    }
+
+   section.pricing-table .pricing-table-header {
+      display: flex;
+      flex-direction: column;
+         .button-switches {
+         margin: 40px 0;
+         background: transparent;
+     }
+  }
+
+  section.course-search{
+	height: 100%;
+   padding: 5rem 2rem;
+	.course-header {
+		h2.subtitle{
+			font-size: 2rem;
+		}
+	}
+}
+
+section.course-category{
+	margin-top: 50px;
+}
+
+section.course-details-section{
+	margin-top: 50px;
+}
+
    
    
 }
