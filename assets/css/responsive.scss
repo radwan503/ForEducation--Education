@@ -127,6 +127,28 @@
          }
       }
    }
+
+
+   section.course-short-counter{
+      .counter-group{
+          background-image: none;
+      }
+   }
+
+   .footer.footer-section{
+      .copyright-footer{
+         .footer-details{
+            display: block;
+            .social-site{
+               ul{
+                  li{
+                     display: inline-block;
+                  }
+               }
+            }
+         }
+      }
+   }
    
    
 }

@@ -538,4 +538,233 @@ section.user-feedback .details-feedback .feedback-comment .course-content h5 {
   font-weight: 400;
   font-family: "Inter", sans-serif;
 }
+
+section.course-short-counter {
+  background: #F0F4F9;
+  padding: 5rem 2rem;
+}
+
+section.course-short-counter .counter-group {
+  background-image: url(/assets/img/banner/map.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: 60% 100%;
+}
+
+section.course-short-counter .counter-group .counter-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+section.course-short-counter .counter-group .counter-box img {
+  height: 9.563rem;
+  width: 10rem;
+}
+
+section.course-short-counter .counter-group .counter-box .counter-num {
+  font-size: 3.75rem;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #212529;
+}
+
+section.course-short-counter .counter-group .counter-box .counter-name {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #00B2B2;
+}
+
+section.subscription-section {
+  padding: 4rem 2rem;
+}
+
+section.subscription-section .subscription-details .subscription-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+section.subscription-section .subscription-details .column.subscription-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.subscription-section .subscription-details p.title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FDC800;
+  font-family: "Inter", sans-serif;
+}
+
+section.subscription-section .subscription-details h1.subtitle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #002147;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+section.subscription-section .subscription-details .subscription-img img {
+  width: 20rem;
+  height: 29.375rem;
+  padding-right: 50px;
+}
+
+section.subscription-section .subscription-details .subscription-field .email-input {
+  padding-bottom: calc(1.5em - 1px);
+  padding-top: calc(1.6em - 1px);
+}
+
+section.subscription-section .subscription-details .subscription-field .control.has-icons-left .icon, section.subscription-section .subscription-details .subscription-field .control.has-icons-right .icon {
+  color: #002147;
+  height: 2.5em;
+  pointer-events: none;
+  position: absolute;
+  top: 8px;
+  width: 2.5em;
+  z-index: 4;
+}
+
+section.subscription-section .subscription-details .subscription-field .control.has-icons-right .icon.is-right {
+  right: 30px;
+}
+
+section.subscription-section .subscription-details .subscription-field .subscription-email {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+section.subscription-section .subscription-details .subscription-field .subscription-email .button {
+  background: #FDC800;
+  border-color: transparent;
+  color: #212529;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+section.subscription-section .subscription-details .subscription-field .subscription-email .button:hover {
+  border-radius: 3rem;
+  color: #FFFFFF;
+  background: #002147;
+}
+
+footer.footer-section {
+  background: #002147;
+  padding: 5rem 2rem 0rem 2rem;
+}
+
+footer.footer-section .contact-group .footer-logo {
+  width: 100%;
+  height: 100%;
+}
+
+footer.footer-section .contact-group .footer-logo img {
+  height: 3.188rem;
+  max-width: 15.5rem;
+}
+
+footer.footer-section .contact-group .address-box .address-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+footer.footer-section .contact-group .address-box .address-info.location {
+  line-height: 1.25rem;
+}
+
+footer.footer-section .contact-group .address-box .address-info.phone i {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+footer.footer-section .shortlist h1.list-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #FFFFFF;
+}
+
+footer.footer-section .shortlist ul li {
+  list-style: none;
+  display: block;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+footer.footer-section .copyright-footer {
+  padding: 3rem 3rem;
+  background: #FDC800;
+}
+
+footer.footer-section .copyright-footer .footer-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer.footer-section .copyright-footer .footer-details p {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #212529;
+}
+
+footer.footer-section .copyright-footer .footer-details .social-site ul li {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+footer.footer-section .copyright-footer .footer-details .social-site ul li a {
+  color: #212529;
+}
 /*# sourceMappingURL=style.css.map */

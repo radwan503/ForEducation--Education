@@ -535,3 +535,214 @@ section.user-feedback{
 	}
 
 }
+
+
+section.course-short-counter{
+	background: $bg-color-light-white;
+	padding: 5rem 2rem;
+	.counter-group{
+       background-image: url(/assets/img/banner/map.png);
+		 background-repeat: no-repeat;
+		 background-position: 50% 100%;
+		 background-size: 60% 100%;
+		.counter-box{
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			height: 100%;
+			width: 100%;
+
+			img{
+				height: 9.563rem;
+				width: 10rem;
+			}
+
+			.counter-num{
+				font-size: 3.75rem;
+				font-weight: $font-weight-bold;
+				font-family: $font-family-gerogia;
+				color: $text-color-black;
+			}
+
+			.counter-name{
+				font-size: 1rem;
+				font-weight: $font-weight-bold;
+				font-family: $font-family-inter;
+				color: $text-color-irsi-blue;
+
+			}
+
+		}
+
+	}
+}
+
+
+section.subscription-section{
+	padding: 4rem 2rem;
+	.subscription-details{
+		.subscription-banner{
+			display: flex;
+			align-items: center;
+			justify-content: end;
+		
+		}
+		.column.subscription-column {
+			display: flex;
+			align-items: center;
+	  }
+		p.title{
+			font-size: 1rem;
+			font-weight: $font-weight-bold;
+			color: $text-color-yellow;
+			font-family: $font-family-inter;
+		}
+		h1.subtitle{
+			font-size: 3rem;
+			font-weight: $font-weight-bold;
+			color: $text-color-light-blue;
+			font-family: $font-family-gerogia;
+		}
+		.subscription-img{
+			img{
+				width: 20rem;
+				height: 29.375rem;
+				padding-right: 50px;
+			}
+		}
+		.subscription-field{
+			.email-input{
+				padding-bottom: calc(1.5em - 1px);
+				padding-top: calc(1.6em - 1px);
+			}
+			.control.has-icons-left .icon, .control.has-icons-right .icon {
+				color: $text-color-light-blue;
+				height: 2.5em;
+				pointer-events: none;
+				position: absolute;
+				top: 8px;
+				width: 2.5em;
+				z-index: 4;
+		  }
+		  .control.has-icons-right .icon.is-right {
+			right: 30px;
+	      }
+			.subscription-email{
+				position: absolute;
+				right: 5px;
+				top: 5px;
+
+				.button{
+					background: $bg-color-yellow;
+					border-color: transparent;
+					color: $text-color-black;
+					transition: .5s;
+					-webkit-transition: .5s;
+					-moz-transition: .5s;
+					-ms-transition: .5s;
+					-o-transition: .5s;
+					&:hover{
+						border-radius: 3rem;
+						color: $bg-color-white;
+						background: $text-color-light-blue;
+					}
+            }
+			}
+		}
+	}
+}
+
+
+footer.footer-section{
+	background: $bg-color-light-blue;
+	padding: 5rem 2rem 0rem 2rem;
+	.contact-group{
+		.footer-logo{
+			width: 100%;
+			height: 100%;
+			img{
+				height: 3.188rem;
+				max-width: 15.5rem;
+			}
+   
+		}
+		.address-box{
+			.address-info{
+				display: flex;
+				gap: 1rem;
+				font-size: 1rem;
+				color: $text-color-white;
+				font-family: $font-family-inter;
+				font-weight: $font-weight-regular;
+
+			}
+			.address-info.location{
+				line-height: 1.25rem;
+
+			}
+			.address-info.phone{
+				i{
+					transform: rotate(90deg);
+					-webkit-transform: rotate(90deg);
+					-moz-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					-o-transform: rotate(90deg);
+            }
+			}
+		}
+	}
+
+	.shortlist{
+		h1.list-title{
+			font-size: 1.25rem;
+			font-weight: $font-weight-bold;
+			font-family: $font-family-inter;
+			color: $text-color-white;
+		}
+		ul{
+			li{
+				
+				list-style: none;
+				display: block;
+				color: $text-color-white;
+				margin-bottom: 1rem;
+				font-size: 1rem;
+				font-family: $font-family-inter;
+				font-weight: $font-weight-regular;
+			}
+		}
+	}
+
+	.copyright-footer{
+		padding: 3rem 3rem;
+		background: $bg-color-yellow;
+		.footer-details{
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			align-items: center;
+         p{
+				font-size: 1rem;
+				font-family: $font-family-inter;
+				font-weight: $font-weight-regular;
+				color: $text-color-black;
+			}
+
+			.social-site{
+				ul{
+					li{
+						font-size: 1rem;
+						font-family: $font-family-inter;
+						font-weight: $font-weight-regular;
+						list-style: none;
+						display: inline-block;
+						margin: 10px;
+						a{
+							color: $text-color-black;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -120,6 +120,15 @@
   section.user-feedback .feedback-banner-group .overlay-image {
     left: 0;
   }
+  section.course-short-counter .counter-group {
+    background-image: none;
+  }
+  .footer.footer-section .copyright-footer .footer-details {
+    display: block;
+  }
+  .footer.footer-section .copyright-footer .footer-details .social-site ul li {
+    display: inline-block;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

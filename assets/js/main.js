@@ -35,7 +35,7 @@ button.addEventListener('click',function(){
  })
 
 
- //counter
+ //coundown
  $(document).ready(function(){
    var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
 
@@ -67,4 +67,18 @@ button.addEventListener('click',function(){
        document.getElementById("demo").innerHTML = "EXPIRED";
      }
    }, 1000);
- })
+ });
+
+
+ //counter
+ $('.counter-num').each(function () {
+  $(this).prop('Counter',0).animate({
+      Counter: $(this).text()
+  }, {
+      duration: 10000,
+      easing: 'swing',
+      step: function (now) {
+          $(this).text(Math.ceil(now));
+      }
+  });
+});
